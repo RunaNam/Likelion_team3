@@ -1,10 +1,76 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <style>
+        .left{
+            background-color: rgb(113, 201, 248);
+            -webkit-box-pack: center;
+            justify-content: center;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            padding: 15px;
+        }
+        .left_in{
+            max-width: 380px;
+            align-self: center;
+            padding: 15px 0px;
+        }
+        .box{
+            margin-bottom: 40px;
+            align-self: center;
+            padding-bottom: 15px;
+            padding-top: 15px;
+        }
+        .img{
+            font-size: 23px;
+            color: rgb(255, 255, 255);
+            flex-shrink: 0;
+            vertical-align: text-bottom;
+            position: relative;
+            max-width: 100%;
+            height: 1.25em;
+            fill: currentcolor;
+            display: inline-block;
+            overflow: hidden;
+        }
+        .word{
+            margin-left: 15px;
+            line-height: 30px;
+            font-size: 19px;
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+            overflow-wrap: break-word;
+            min-width: 0px;
+            line-height: 1.3125;
+        }
+    </style>
 </head>
 <body>
-
+    <div class="container">
+        <div class="col-sm-6">
+            <div class="left">
+                <div class="left_in">
+                    <div class="box">
+                        <i class="fas fa-search img"></i>
+                        <span class="word">관심사를 팔로우하세요.</span>
+                    </div>
+                    <div class="box">
+                        <i class="fas fa-user-friends img"></i>
+                        <span class="word">사람들이 무엇에 대해 이야기하고 있는지 알아보세요.</span>
+                    </div>
+                    <div class="box_another">
+                        <i class="far fa-comment-alt img"></i>
+                        <span class="word">대화에 참여하세요.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6"></div>
+        <div class="row">
+            <div class="col-sm-12"></div>
+        </div>
+    </div>
 </body>
-</html>
